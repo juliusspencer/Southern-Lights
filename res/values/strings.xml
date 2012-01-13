@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Southern Lights</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="nine">Nine</string>
+    <string name="about_title">About Southern Lights</string>
+    <string name="about_message">Southern Lights was written by:
+	    \n
+	    \n
+	    Paul Hutchison\n
+	    Julius Spencer\n
+	    Tong\n
+	    And another guy whose name we can’t remember\n
+	    \n
+	    This is a result of <a href="http://www.meetup.com/Auckland-GTUG/events/41034342/">the November 2011 GTUG coding session</a>.
+	    \n\n
+	    Visit the <a href="http://gplus.to/AucklandGTUG">Auckland GTUG</a>.  </string>
+    <string name="problem_saving">Problem Saving.</string>
+    <string name="recording_saved">Recording Saved.</string>
+    <string name="please_enter_in_a_recording_name">Please enter in a recording name.</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_in_a_name">Enter in a name</string>
+    <string name="pick_a_recording">Pick a recording</string>
+    <string name="no_recordings_have_been_saved">No recordings have been saved.</string>
+    <string name="no_recordings_have_been_made">No recordings have been made</string>
+    <string name="please_enter_in_a_name">Please enter in a name</string>
+    <string name="saving_recording">Saving recording</string>
+    <string name="loading_recording">Loading recording</string>
+	<string name="recording_not_found">Recording not found! :-(</string>
+	<string name="recording_loaded">Recording loaded! :-)</string>
+    <string name="problem_loading_recording">Problem Loading Recording! :-(</string>
+</resources>

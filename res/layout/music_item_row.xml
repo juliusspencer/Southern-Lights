@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_toLeftOf="@+id/duration_textview" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginLeft="10dip" android:layout_marginRight="10dip">
+
+        <TextView
+            android:id="@+id/track_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The long track name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/track_album_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The long album name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/track_artist_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The longish artist name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/duration_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(00:00)" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="10dip"/>
+
+</RelativeLayout>

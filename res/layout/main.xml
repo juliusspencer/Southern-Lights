@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/controls_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:layout_toLeftOf="@+id/music_list_layout">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true" android:id="@+id/titles_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/two" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/three" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/four" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/five" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/six" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/seven" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/eight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/nine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/checkboxes_layout" android:layout_below="@+id/titles_layout">
+
+            <CheckBox
+                android:id="@+id/channel_one_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_two_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_three_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_four_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_five_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_six_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_seven_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_eight_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+
+            <CheckBox
+                android:id="@+id/channel_nine_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Record" />
+        </LinearLayout>
+
+        <org.gtugs.auckland.widget.MultiTouchLinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/sliders_layout" android:layout_above="@+id/buttons_layout" android:layout_below="@+id/checkboxes_layout">
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_one_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_two_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_three_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_four_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_five_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_six_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_seven_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_eight_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+
+            <org.gtugs.auckland.widget.VerticalSeekBar
+                android:id="@+id/channel_nine_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progress_vertical_no_border"
+                android:thumb="@drawable/transparent" />
+        </org.gtugs.auckland.widget.MultiTouchLinearLayout>
+
+        <org.gtugs.auckland.widget.MultiTouchLinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/buttons_layout">
+
+            <Button
+                android:id="@+id/channel_one_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_two_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_three_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_four_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_five_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_six_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_seven_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_eight_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/channel_nine_Button"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_weight="1"
+                android:text="Button" />
+        </org.gtugs.auckland.widget.MultiTouchLinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/music_list_layout" android:layout_alignParentRight="true">
+
+        <ProgressBar
+            android:id="@+id/loading_music_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/music_listview"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+
+            <!-- Preview: listitem=@layout/music_item_row -->
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

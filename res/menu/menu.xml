@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_load"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit"/>
+    
+        <item android:id="@+id/menu_save"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_save"/>
+    
+    <item android:id="@+id/menu_play"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/menu_record"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/menu_repeat"
+        android:showAsAction="always"/>
+    
+
+    <item android:id="@+id/menu_about"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    
+
+</menu>
