@@ -42,3 +42,13 @@ The code for the ADK was written by Paul Hutchison.
 License Overview
 ----------------
 Unless otherwise stated the code falls under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+
+TODO
+----
+We still need to upload the source for the ADK which Paul made. This is needed to work with the accessory_filter.xml configuration and for the lights to work properly.
+
+
+Notes
+-----
+An instructible is in progress [here](http://www.instructables.com/id/Android-Christmas-Lights-Controller/)!
