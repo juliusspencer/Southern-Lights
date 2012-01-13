@@ -21,7 +21,7 @@ Third parties
 ------------
 The following pieces of code were used / hacked into the project:
 
-[DJDispatcher](https://bitbucket.org/damiankolakowski/djdispatcher/src)
+Multi touch stuff (we altered this a bit for Honeycomb); see [DJDispatcher](https://bitbucket.org/damiankolakowski/djdispatcher/src)
 
 Vertical SeekBar from an answer [here](http://stackoverflow.com/questions/4892179/need-working-vertical-seekbar)
 
