@@ -44,9 +44,10 @@ License Overview
 Unless otherwise stated the code falls under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 
-TODO
-----
-We still need to upload the source for the ADK which Paul made. This is needed to work with the accessory_filter.xml configuration and for the lights to work properly.
+ADK code
+--------
+The code for the arduino board is named (which is necessary for working with the accessory_filter.xml:
+southernlights.pde
 
 
 Notes
