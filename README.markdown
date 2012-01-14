@@ -14,7 +14,9 @@ The purpose of the project was to <b>learn</b> together and <b>have fun</b>.
 
 The code was written as quickly as possible, doesn't use fragments, isn't the only way to do this and isn't designed for reusability.
 
-We're making the code available so others can learn, hack it around or just use it as is. We'd enjoy seeing other people take this and make their own variations, improvements etc.
+We are making the code available so others can learn, hack it around or just use it as is. We would enjoy seeing other people take this and make their own variations, improvements etc.
+
+We are not providing support.  We will not be able to provide much if any time / support for this.  If we receive requests we may or may not answer them based on available time.
 
 
 Third parties
@@ -53,3 +55,4 @@ southernlights.pde
 Notes
 -----
 An instructible is in progress [here](http://www.instructables.com/id/Android-Christmas-Lights-Controller/)!
+
